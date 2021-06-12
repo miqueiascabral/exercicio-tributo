@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{ /*resetar a pagina css*/
+    margin: 10px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.titulo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(46, 62, 211);
+    font-size: 23px;
+    color: white;
+}
+.imagem-de-perfil{
+    display: flex;
+    align-items: center;
+    flex-direction: column;  
+}
+img{
+    height: 650px;
+    width: 550px;
+    border-radius: 150px;
+}
+.biografia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.bio,
+.bio-vida-pessoal{
+    width: 50%;
+}
+.mais-info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+a{
+    text-decoration: none;
+    color: rgb(46, 62, 211);
+}
+.minha-info{
+    background-color: rgb(46, 62, 211);
+    width: auto;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.dev{
+    text-align: center;
+    color: white;
+    display: flex;
+    margin-top: 29px;
+}
